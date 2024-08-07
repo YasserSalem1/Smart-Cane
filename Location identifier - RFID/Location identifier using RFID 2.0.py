@@ -5,6 +5,7 @@ import pyttsx3
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
 
+
 engine = pyttsx3.init()
 reader = SimpleMFRC522()
 NULL = -1
